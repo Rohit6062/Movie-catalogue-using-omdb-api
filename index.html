@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Search WebPage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- end font awesome icon cdn  -->
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Logo -->
+        <div class="logo">
+            <div class="container">
+                <p>Movie<span>Corn.</span></p>
+            </div>
+        </div>
+        <!-- End of logo -->
+        <!-- Search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" class="form-control" placeholder="Search movie titl  e..." id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
+
+                <div class="search-list" id="search-list">
+                    <!-- <div class="search-list-item">
+
+                        <div class="search-item-thumbnail">
+                            <img src="gogl.jpg" alt="">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Gaurdians of the Galaxy</h3>
+                            <p>2014</p>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+        <!-- result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- movie information here -->
+                    <!-- <div class="movie-poster">
+                        <img src="gogl.jpg" alt="Movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Gaurdians of the Galaxy</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2014</li>
+                            <li class="rated">Ratings: PG-13</li>
+                            <li class="realesed">Realesed: 8 august 2014 </li>
+                        </ul>
+                        <p class="genre"><b>Genre: </b>Action,Adventure,Comedy</p>
+                        <p class="writer"><b>Writer: </b>James Gunn,Don Abnett,Andy Lanning</p>
+                        <p class="actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                        <p class="plot"><b>Plot: </b>The Guardians struggles to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the abitious celestial being Ego.</p>
+                        <p class="language"><b>Language: </b>English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b>Nominated for Oscar</p>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result container  -->
+
+    </div>
+<!-- js file -->
+    <script src="script.js"></script>
+</body>
+</html>
